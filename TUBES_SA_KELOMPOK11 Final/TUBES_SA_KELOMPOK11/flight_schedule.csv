@@ -1,0 +1,11 @@
+Origin,Destination,Departure Time,Arrival Time,Flight Duration,Distance (km),Price
+Jakarta,Bali,08:00,10:30,2.5 hours,1200,500000
+Jakarta,Surabaya,09:30,11:30,2 hours,800,400000
+Bali,Jakarta,12:00,14:30,2.5 hours,1200,550000
+Surabaya,Jakarta,13:00,15:00,2 hours,800,420000
+Jakarta,Yogyakarta,14:30,16:00,1.5 hours,500,350000
+Yogyakarta,Jakarta,17:00,18:30,1.5 hours,500,360000
+Bali,Surabaya,10:00,11:30,1.5 hours,300,380000
+Surabaya,Bali,12:30,14:00,1.5 hours,300,390000
+Jakarta,Medan,15:00,17:30,2.5 hours,1500,600000
+Medan,Jakarta,18:00,20:30,2.5 hours,1500,610000

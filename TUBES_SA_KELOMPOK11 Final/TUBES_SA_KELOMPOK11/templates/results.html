@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hasil Pencarian</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Hasil Pencarian Jadwal Penerbangan Terbaik</h1>
+        
+        <h2>Hasil menggunakan Dijkstra:</h2>
+        <p>Jarak total perjalanan: {{ dijkstra_result[0] }} km</p>
+        <p>Waktu eksekusi algoritma: {{ dijkstra_time }} detik</p>
+        <p>Rute: {{ ' -> '.join(dijkstra_result[1]) }}</p>
+
+        <h2>Hasil menggunakan Branch and Bound:</h2>
+        <p>Jarak total perjalanan: {{ bb_result[0] }} km</p>
+        <p>Waktu eksekusi algoritma: {{ bb_time }} detik</p>
+        <p>Rute: {{ ' -> '.join(bb_result[1]) }}</p>
+
+        <a href="/">Kembali ke halaman utama</a>
+    </div>
+</body>
+</html>
